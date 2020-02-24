@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+
 int main(){
     //char color[]="green";
     //printf("%s\n",color);
@@ -91,8 +93,12 @@ int main(){
 
 //---------------- String Handing lib  cmp---------------- //
     //int strcmp(const char*s1,const char*s2); เอา str 2 ตัวมา เปรียบเทียบกัน ถ้า ascii s1<s2 return >0 if s1>s2 return <0 if s1==s2 return 0 
-    printf("%s\n",strerror(0));
-    printf("%s\n",strerror(1));
-    printf("%s\n",strerror(2));
-    printf("%s\n",strerror(-1)); // same strerror('a')
+    //printf("%s\n",strerror(0));
+    //printf("%s\n",strerror(1));
+    //printf("%s\n",strerror(2));
+    //printf("%s\n",strerror(-1)); // same strerror('a')
+}
+void Struct()
+{
+    
 }
