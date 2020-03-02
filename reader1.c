@@ -4,7 +4,7 @@ int main() {
     char line[100],word[30];
     int number,total=0;
 
-    fp=fopen("data.in.txt", "r");//
+    fp=fopen("data.in.txt", "r");
 
     while (fgets(line,99,fp)!=NULL)
     {
